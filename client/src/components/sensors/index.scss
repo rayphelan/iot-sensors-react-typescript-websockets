@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.switch-label {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.connect-switch-container {
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0 0.5rem 2rem 0.5rem;
+  padding: 0.7rem;
+}
+
+.bg-error {
+  background-color: rgba(217, 52, 43, 0.7);
+}
+
+.bg-success {
+  background-color: rgba(34, 197, 94, 0.5);
+}
+
+.darker-bg {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.sensor-container {
+  background-color: black;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 1rem;
+}
