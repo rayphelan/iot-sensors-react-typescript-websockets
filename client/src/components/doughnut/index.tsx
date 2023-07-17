@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Chart } from 'primereact/chart';
-import type { SensorProps } from '../sensors';
+import { SensorProps } from '../sensors';
 import { ConnectSwitch } from '../connect-switch';
 
 export const Doughnut = (props: SensorProps) => {
